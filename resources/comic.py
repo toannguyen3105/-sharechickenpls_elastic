@@ -153,7 +153,7 @@ class ComicList(Resource):
                 "query": {
                     "multi_match": {
                         "query": keyword,
-                        "fields": ["name", "description", "author", "keywords"]
+                        "fields": ["name", "description", "author", "keywords", "revenue"]
                     }
                 }
             }
