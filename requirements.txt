@@ -1,2 +1,3 @@
 elasticsearch
-flask
+Flask-RESTful
+flask_cors
